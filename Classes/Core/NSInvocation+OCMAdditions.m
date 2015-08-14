@@ -6,7 +6,7 @@
 #import "NSInvocation+OCMAdditions.h"
 
 
-@implementation NSInvocation(OCMAdditions)
+@implementation NSInvocation(KWOCMAdditions)
 
 - (id)getArgumentAtIndexAsObject:(int)argIndex
 {
