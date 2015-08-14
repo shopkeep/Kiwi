@@ -5,7 +5,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSInvocation(OCMAdditions)
+@interface NSInvocation(KWOCMAdditions)
 
 - (id)getArgumentAtIndexAsObject:(int)argIndex;
 
