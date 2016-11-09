@@ -247,6 +247,28 @@
 		4AE030C81AEB494400556381 /* KWValueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C6FD2311782A290068BBC8 /* KWValueTest.m */; };
 		4AE030C91AEB494400556381 /* NSNumber_KiwiAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C69F7190CA6EE002C4DC0 /* NSNumber_KiwiAdditionsTests.m */; };
 		4AE030CA1AEB4DCF00556381 /* NSObject+KiwiSpyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F982CD916A802920030A0B1 /* NSObject+KiwiSpyAdditions.m */; };
+		50ACAF651BBA28D000F29B0F /* DoNotUseMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ACAF641BBA28D000F29B0F /* DoNotUseMe.m */; settings = {ASSET_TAGS = (); }; };
+		50ACAF661BBA28D000F29B0F /* DoNotUseMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ACAF641BBA28D000F29B0F /* DoNotUseMe.m */; settings = {ASSET_TAGS = (); }; };
+		CE0736B41B8577140023EBEA /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0736B31B8577140023EBEA /* Expecta.framework */; };
+		CE0736B61B85771E0023EBEA /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0736B51B85771E0023EBEA /* Expecta.framework */; };
+		CE0736B81B8577490023EBEA /* KWExpectaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0736B71B8577490023EBEA /* KWExpectaTests.m */; };
+		CE0736B91B8577490023EBEA /* KWExpectaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0736B71B8577490023EBEA /* KWExpectaTests.m */; };
+		CE0736BD1B8577BE0023EBEA /* Expecta.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = CE0736B31B8577140023EBEA /* Expecta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE0736BF1B8577CD0023EBEA /* Expecta.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = CE0736B51B85771E0023EBEA /* Expecta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE16A3821B8BC79C0009DF25 /* KWFailureInterceptingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CE16A3811B8BC79C0009DF25 /* KWFailureInterceptingSpec.m */; };
+		CE16A3831B8BC79C0009DF25 /* KWFailureInterceptingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CE16A3811B8BC79C0009DF25 /* KWFailureInterceptingSpec.m */; };
+		CE39E6121B857C9900736C33 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE39E6111B857C9900736C33 /* Nimble.framework */; };
+		CE39E6131B857CA200736C33 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = CE39E6111B857C9900736C33 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE39E6151B857CAB00736C33 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE39E6141B857CAB00736C33 /* Nimble.framework */; };
+		CE39E6161B857CB000736C33 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = CE39E6141B857CAB00736C33 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE39E6181B857CE000736C33 /* KWObjCNimbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE39E6171B857CE000736C33 /* KWObjCNimbleTests.m */; };
+		CE39E6191B857CE000736C33 /* KWObjCNimbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE39E6171B857CE000736C33 /* KWObjCNimbleTests.m */; };
+		CE39E61B1B857DE300736C33 /* KWSwiftNimbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39E61A1B857DE300736C33 /* KWSwiftNimbleTests.swift */; };
+		CE39E61C1B857DE300736C33 /* KWSwiftNimbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39E61A1B857DE300736C33 /* KWSwiftNimbleTests.swift */; };
+		CE7EFF991B8475BD00FFE6D6 /* KWSwiftXCTestAssertionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EFF981B8475BD00FFE6D6 /* KWSwiftXCTestAssertionTests.swift */; };
+		CE7EFF9A1B8475BD00FFE6D6 /* KWSwiftXCTestAssertionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EFF981B8475BD00FFE6D6 /* KWSwiftXCTestAssertionTests.swift */; };
+		CE7EFF9C1B847AD700FFE6D6 /* KWObjCXCTestAssertionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7EFF9B1B847AD700FFE6D6 /* KWObjCXCTestAssertionTests.m */; };
+		CE7EFF9D1B847AD700FFE6D6 /* KWObjCXCTestAssertionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7EFF9B1B847AD700FFE6D6 /* KWObjCXCTestAssertionTests.m */; };
 		CE80E4411AF239DB00D2F0D6 /* KWCountType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F982C7116A802920030A0B1 /* KWCountType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE80E4501AF255BF00D2F0D6 /* KWBackgroundTask.h in Headers */ = {isa = PBXBuildFile; fileRef = CE80E44E1AF255BF00D2F0D6 /* KWBackgroundTask.h */; };
 		CE80E4511AF255BF00D2F0D6 /* KWBackgroundTask.h in Headers */ = {isa = PBXBuildFile; fileRef = CE80E44E1AF255BF00D2F0D6 /* KWBackgroundTask.h */; };
@@ -514,6 +536,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CE0736BB1B8577A80023EBEA /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE0736BD1B8577BE0023EBEA /* Expecta.framework in Copy Frameworks */,
+				CE39E6131B857CA200736C33 /* Nimble.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0736BE1B8577C30023EBEA /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE0736BF1B8577CD0023EBEA /* Expecta.framework in Copy Frameworks */,
+				CE39E6161B857CB000736C33 /* Nimble.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3AD0490218D8C4CA00D12A08 /* KWExampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWExampleTest.m; sourceTree = "<group>"; };
@@ -546,6 +595,8 @@
 		4E7659A8172DAC6500105B93 /* KWContainStringMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWContainStringMatcher.h; sourceTree = "<group>"; };
 		4E7659A9172DAC6500105B93 /* KWContainStringMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWContainStringMatcher.m; sourceTree = "<group>"; };
 		4E7659AF172DAE4D00105B93 /* KWContainStringMatcherTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWContainStringMatcherTest.m; sourceTree = "<group>"; };
+		50ACAF631BBA28D000F29B0F /* DoNotUseMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoNotUseMe.h; path = "Test Classes/DoNotUseMe.h"; sourceTree = "<group>"; };
+		50ACAF641BBA28D000F29B0F /* DoNotUseMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoNotUseMe.m; path = "Test Classes/DoNotUseMe.m"; sourceTree = "<group>"; };
 		511901A016A95803006E7359 /* KWChangeMatcherTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWChangeMatcherTest.m; sourceTree = "<group>"; };
 		511901A316A95CDE006E7359 /* KWChangeMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWChangeMatcher.h; sourceTree = "<group>"; };
 		511901A416A95CDE006E7359 /* KWChangeMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWChangeMatcher.m; sourceTree = "<group>"; };
@@ -747,6 +798,17 @@
 		C533F7D117462CAA000CAB02 /* KWSymbolicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWSymbolicator.h; sourceTree = "<group>"; };
 		C533F7D217462CAA000CAB02 /* KWSymbolicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWSymbolicator.m; sourceTree = "<group>"; };
 		C931D36D18AB2DEB005BC184 /* KWBeZeroMatcherTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KWBeZeroMatcherTest.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CE0736B31B8577140023EBEA /* Expecta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Expecta.framework; path = Carthage/Build/iOS/Expecta.framework; sourceTree = "<group>"; };
+		CE0736B51B85771E0023EBEA /* Expecta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Expecta.framework; path = Carthage/Build/Mac/Expecta.framework; sourceTree = "<group>"; };
+		CE0736B71B8577490023EBEA /* KWExpectaTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWExpectaTests.m; sourceTree = "<group>"; };
+		CE16A3801B8BC79C0009DF25 /* KWFailureInterceptingSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWFailureInterceptingSpec.h; sourceTree = "<group>"; };
+		CE16A3811B8BC79C0009DF25 /* KWFailureInterceptingSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWFailureInterceptingSpec.m; sourceTree = "<group>"; };
+		CE39E6111B857C9900736C33 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		CE39E6141B857CAB00736C33 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		CE39E6171B857CE000736C33 /* KWObjCNimbleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWObjCNimbleTests.m; sourceTree = "<group>"; };
+		CE39E61A1B857DE300736C33 /* KWSwiftNimbleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWSwiftNimbleTests.swift; sourceTree = "<group>"; };
+		CE7EFF981B8475BD00FFE6D6 /* KWSwiftXCTestAssertionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWSwiftXCTestAssertionTests.swift; sourceTree = "<group>"; };
+		CE7EFF9B1B847AD700FFE6D6 /* KWObjCXCTestAssertionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWObjCXCTestAssertionTests.m; sourceTree = "<group>"; };
 		CE80E44E1AF255BF00D2F0D6 /* KWBackgroundTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWBackgroundTask.h; sourceTree = "<group>"; };
 		CE80E44F1AF255BF00D2F0D6 /* KWBackgroundTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWBackgroundTask.m; sourceTree = "<group>"; };
 		CE87C4231AF194E900310C07 /* Kiwi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kiwi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -804,6 +866,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AE02FC81AEB45EB00556381 /* Kiwi.framework in Frameworks */,
+				CE0736B61B85771E0023EBEA /* Expecta.framework in Frameworks */,
+				CE39E6151B857CAB00736C33 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -819,6 +883,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE87C42E1AF194EA00310C07 /* Kiwi.framework in Frameworks */,
+				CE0736B41B8577140023EBEA /* Expecta.framework in Frameworks */,
+				CE39E6121B857C9900736C33 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -832,6 +898,8 @@
 				9F982A1E16A801800030A0B1 /* Carrier.m */,
 				9F982A1F16A801800030A0B1 /* Cruiser.h */,
 				9F982A2016A801800030A0B1 /* Cruiser.m */,
+				50ACAF631BBA28D000F29B0F /* DoNotUseMe.h */,
+				50ACAF641BBA28D000F29B0F /* DoNotUseMe.m */,
 				9F982A2116A801800030A0B1 /* Engine.h */,
 				9F982A2216A801800030A0B1 /* Engine.m */,
 				9F982A2316A801800030A0B1 /* Fighter.h */,
@@ -889,6 +957,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE39E6141B857CAB00736C33 /* Nimble.framework */,
+				CE39E6111B857C9900736C33 /* Nimble.framework */,
+				CE0736B51B85771E0023EBEA /* Expecta.framework */,
+				CE0736B31B8577140023EBEA /* Expecta.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				DA084D3F17E3804200592D5A /* XCTest.framework */,
 				DA084D4217E3804200592D5A /* UIKit.framework */,
@@ -1147,8 +1219,15 @@
 		89F9CB7816B1BE0E00E87D34 /* Functional */ = {
 			isa = PBXGroup;
 			children = (
+				CE0736B71B8577490023EBEA /* KWExpectaTests.m */,
 				89F9CB7B16B1C2C400E87D34 /* KWFunctionalTests.m */,
 				4A4AA324195B7C4E00423CD6 /* KWMessagePatternFunctionalTests.m */,
+				CE39E6171B857CE000736C33 /* KWObjCNimbleTests.m */,
+				CE7EFF9B1B847AD700FFE6D6 /* KWObjCXCTestAssertionTests.m */,
+				CE39E61A1B857DE300736C33 /* KWSwiftNimbleTests.swift */,
+				CE7EFF981B8475BD00FFE6D6 /* KWSwiftXCTestAssertionTests.swift */,
+				CE16A3801B8BC79C0009DF25 /* KWFailureInterceptingSpec.h */,
+				CE16A3811B8BC79C0009DF25 /* KWFailureInterceptingSpec.m */,
 			);
 			name = Functional;
 			sourceTree = "<group>";
@@ -1529,6 +1608,7 @@
 				4AE02FC31AEB45EB00556381 /* Sources */,
 				4AE02FC41AEB45EB00556381 /* Frameworks */,
 				4AE02FC51AEB45EB00556381 /* Resources */,
+				CE0736BE1B8577C30023EBEA /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1565,6 +1645,7 @@
 				CE87C4291AF194EA00310C07 /* Sources */,
 				CE87C42A1AF194EA00310C07 /* Frameworks */,
 				CE87C42B1AF194EA00310C07 /* Resources */,
+				CE0736BB1B8577A80023EBEA /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1582,8 +1663,9 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastTestingUpgradeCheck = 0600;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Allen Ding";
 				TargetAttributes = {
 					4AE02FBC1AEB45EB00556381 = {
@@ -1753,6 +1835,7 @@
 			files = (
 				4AC1CD631AEB4FBC00CBD0B8 /* KWLetNodeTest.m in Sources */,
 				4AE0308F1AEB494400556381 /* KWBeBetweenMatcherTest.m in Sources */,
+				CE16A3831B8BC79C0009DF25 /* KWFailureInterceptingSpec.m in Sources */,
 				4AE030901AEB494400556381 /* KWBeEmptyMatcherTest.m in Sources */,
 				4AE030911AEB494400556381 /* KWBeIndenticalToMatcherTest.m in Sources */,
 				4AE030921AEB494400556381 /* KWBeKindOfClassMatcherTest.m in Sources */,
@@ -1763,11 +1846,13 @@
 				4AE030971AEB494400556381 /* KWBlockRaiseMatcherTest.m in Sources */,
 				4AE030981AEB494400556381 /* KWChangeMatcherTest.m in Sources */,
 				4AE030991AEB494400556381 /* KWConformToProtocolMatcherTest.m in Sources */,
+				CE39E61C1B857DE300736C33 /* KWSwiftNimbleTests.swift in Sources */,
 				4AE0309A1AEB494400556381 /* KWContainMatcherTest.m in Sources */,
 				4AE0309B1AEB494400556381 /* KWContainStringMatcherTest.m in Sources */,
 				4AE0309C1AEB494400556381 /* KWEqualMatcherTest.m in Sources */,
 				4AE0309D1AEB494400556381 /* KWGenericMatcherTest.m in Sources */,
 				4AE0309E1AEB494400556381 /* KWHaveMatcherTest.m in Sources */,
+				CE7EFF9A1B8475BD00FFE6D6 /* KWSwiftXCTestAssertionTests.swift in Sources */,
 				4AE0309F1AEB494400556381 /* KWHaveValueMatcherTest.m in Sources */,
 				4AE030A01AEB494400556381 /* KWInequalityMatcherTest.m in Sources */,
 				4AE030A11AEB494400556381 /* KWReceiveMatcherTest.m in Sources */,
@@ -1775,7 +1860,9 @@
 				4AE030A31AEB494400556381 /* KWRespondToSelectorMatcherTest.m in Sources */,
 				4AE030A41AEB494400556381 /* KWUserDefinedMatcherTest.m in Sources */,
 				4AE030A51AEB494400556381 /* KWBeZeroMatcherTest.m in Sources */,
+				CE39E6191B857CE000736C33 /* KWObjCNimbleTests.m in Sources */,
 				4AE030A61AEB494400556381 /* KWUserDefinedMatcherFunctionalTest.m in Sources */,
+				CE0736B91B8577490023EBEA /* KWExpectaTests.m in Sources */,
 				4AE030A71AEB494400556381 /* KWMockTest.m in Sources */,
 				4AE030A81AEB494400556381 /* KWRealObjectSpyTest.m in Sources */,
 				4AE030A91AEB494400556381 /* KWRealObjectStubTest.m in Sources */,
@@ -1789,12 +1876,14 @@
 				4AE030B11AEB494400556381 /* Carrier.m in Sources */,
 				4AE030B21AEB494400556381 /* Cruiser.m in Sources */,
 				4AE030B31AEB494400556381 /* Engine.m in Sources */,
+				CE7EFF9D1B847AD700FFE6D6 /* KWObjCXCTestAssertionTests.m in Sources */,
 				4AE030B41AEB494400556381 /* Fighter.m in Sources */,
 				4AE030B51AEB494400556381 /* Galaxy.m in Sources */,
 				4AE030B61AEB494400556381 /* Robot.m in Sources */,
 				4AE030B71AEB494400556381 /* SpaceShip.m in Sources */,
 				4AE030B81AEB494400556381 /* TestReporter.m in Sources */,
 				4AE030B91AEB494400556381 /* TestSpy.m in Sources */,
+				50ACAF661BBA28D000F29B0F /* DoNotUseMe.m in Sources */,
 				4AE030BA1AEB494400556381 /* TestVerifier.m in Sources */,
 				4AE030BB1AEB494400556381 /* KWBlockNodeTest.m in Sources */,
 				4AE030BC1AEB494400556381 /* KWContextNodeTest.m in Sources */,
@@ -1911,6 +2000,7 @@
 			files = (
 				CE87C4F41AF1994100310C07 /* KWBeBetweenMatcherTest.m in Sources */,
 				CE87C4F51AF1994100310C07 /* KWBeEmptyMatcherTest.m in Sources */,
+				CE16A3821B8BC79C0009DF25 /* KWFailureInterceptingSpec.m in Sources */,
 				CE87C4F61AF1994100310C07 /* KWBeIndenticalToMatcherTest.m in Sources */,
 				CE87C4F71AF1994100310C07 /* KWBeKindOfClassMatcherTest.m in Sources */,
 				CE87C4F81AF1994100310C07 /* KWBeMemberOfClassMatcherTest.m in Sources */,
@@ -1921,11 +2011,13 @@
 				CE87C4FD1AF1994100310C07 /* KWChangeMatcherTest.m in Sources */,
 				CE87C4FE1AF1994100310C07 /* KWConformToProtocolMatcherTest.m in Sources */,
 				CE87C4FF1AF1994100310C07 /* KWContainMatcherTest.m in Sources */,
+				CE39E61B1B857DE300736C33 /* KWSwiftNimbleTests.swift in Sources */,
 				CE87C5001AF1994100310C07 /* KWContainStringMatcherTest.m in Sources */,
 				CE87C5011AF1994100310C07 /* KWEqualMatcherTest.m in Sources */,
 				CE87C5021AF1994100310C07 /* KWGenericMatcherTest.m in Sources */,
 				CE87C5031AF1994100310C07 /* KWHaveMatcherTest.m in Sources */,
 				CE87C5041AF1994100310C07 /* KWHaveValueMatcherTest.m in Sources */,
+				CE7EFF991B8475BD00FFE6D6 /* KWSwiftXCTestAssertionTests.swift in Sources */,
 				CE87C5051AF1994100310C07 /* KWInequalityMatcherTest.m in Sources */,
 				CE87C5061AF1994100310C07 /* KWReceiveMatcherTest.m in Sources */,
 				CE87C5071AF1994100310C07 /* KWRegularExpressionPatternMatcherTest.m in Sources */,
@@ -1933,7 +2025,9 @@
 				CE87C5091AF1994100310C07 /* KWUserDefinedMatcherTest.m in Sources */,
 				CE87C50A1AF1994100310C07 /* KWBeZeroMatcherTest.m in Sources */,
 				CE87C50B1AF1994100310C07 /* KWUserDefinedMatcherFunctionalTest.m in Sources */,
+				CE39E6181B857CE000736C33 /* KWObjCNimbleTests.m in Sources */,
 				CE87C50C1AF1994100310C07 /* KWMockTest.m in Sources */,
+				CE0736B81B8577490023EBEA /* KWExpectaTests.m in Sources */,
 				CE87C50D1AF1994100310C07 /* KWRealObjectSpyTest.m in Sources */,
 				CE87C50E1AF1994200310C07 /* KWRealObjectStubTest.m in Sources */,
 				CE87C50F1AF1994200310C07 /* KWStubTest.m in Sources */,
@@ -1947,12 +2041,14 @@
 				CE87C5171AF1994200310C07 /* Cruiser.m in Sources */,
 				CE87C5181AF1994200310C07 /* Engine.m in Sources */,
 				CE87C5191AF1994200310C07 /* Fighter.m in Sources */,
+				CE7EFF9C1B847AD700FFE6D6 /* KWObjCXCTestAssertionTests.m in Sources */,
 				CE87C51A1AF1994200310C07 /* Galaxy.m in Sources */,
 				CE87C51D1AF1994200310C07 /* Robot.m in Sources */,
 				CE87C51E1AF1994200310C07 /* SpaceShip.m in Sources */,
 				CE87C51F1AF1994200310C07 /* TestReporter.m in Sources */,
 				CE87C5201AF1994200310C07 /* TestSpy.m in Sources */,
 				CE87C5211AF1994200310C07 /* TestVerifier.m in Sources */,
+				50ACAF651BBA28D000F29B0F /* DoNotUseMe.m in Sources */,
 				CE87C5221AF1994200310C07 /* KWBlockNodeTest.m in Sources */,
 				CE87C5231AF1994200310C07 /* KWContextNodeTest.m in Sources */,
 				CE87C5241AF1994200310C07 /* KWExampleSuiteBuilderTest.m in Sources */,
@@ -2095,8 +2191,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2114,6 +2210,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(KIWI_TESTS_PRODUCT_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -2134,8 +2231,8 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -2159,7 +2256,9 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2176,6 +2275,7 @@
 				KIWI_PRODUCT_NAME = Kiwi;
 				KIWI_TESTS_PRODUCT_NAME = KiwiTests;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kiwi-bdd.$(PRODUCT_NAME:rfc1034identifier)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2193,6 +2293,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2209,6 +2310,7 @@
 				KIWI_PRODUCT_NAME = Kiwi;
 				KIWI_TESTS_PRODUCT_NAME = KiwiTests;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kiwi-bdd.$(PRODUCT_NAME:rfc1034identifier)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = "-Wall";
@@ -2313,8 +2415,8 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2330,6 +2432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(KIWI_TESTS_PRODUCT_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -2348,8 +2451,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
